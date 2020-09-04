@@ -1,0 +1,28 @@
+@import url('blogs.css');
+@import url('footer.css');
+@import url('individual-blog.css');
+@import url('media-queries.css');
+@import url('navbar.css');
+
+body {
+    background: rgb(235, 234, 234);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.homepage-grid {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    align-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+

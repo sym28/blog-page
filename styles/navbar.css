@@ -1,0 +1,26 @@
+.navbar {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 8px 0px 8px;
+}
+
+.flex-item {
+    text-transform: uppercase;
+}
+
+input {
+    max-height: 1rem;
+    align-self: center;
+    text-align: center;
+}
+
+.contact-button {
+    border-radius: 2em;
+    border-style: hidden;
+    background: rgb(143, 223, 247);
+    cursor: pointer;
+    padding: 0.8rem;
+
+}
